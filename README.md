@@ -16,38 +16,38 @@
 
 ### 创建型模式
 
-- [抽象工厂模式](./creational/abstract-factory/)
-- [工厂方法模式](./creational/factory-method/)
-- [生成器模式](./creational/builder/)
+- [抽象工厂模式(Abstract Factory)](./creational/abstract-factory/)
+- [工厂方法模式(Factory Method)](./creational/factory-method/)
+- [生成器模式(Builder)](./creational/builder/)
 - [惰性初始模式]()
 - [对象池模式]()
-- [原型模式](./creational/prototype/)
-- [单例模式](./creational/singleton/)
+- [原型模式(Prototype)](./creational/prototype/)
+- [单例模式(Singleton)](./creational/singleton/)
 - [多例模式]()
 
 ### 结构型模式
 
-- [适配器模式](./structural/adapter/)
-- [桥接模式](./structural/bridge/)
-- [组合模式](./structural/composite/)
-- [修饰模式]()
-- [外观模式]()
-- [享元模式](./structural/flyweight/)
-- [代理模式](./structural/proxy/)
+- [适配器模式(Adapter)](./structural/adapter/)
+- [桥接模式(Bridge)](./structural/bridge/)
+- [组合模式(Composite)](./structural/composite/)
+- [修饰模式(Decorator)](./structural/decorator/)
+- [外观模式(Facade)](./structural/facade/)
+- [享元模式(Flywight)](./structural/flyweight/)
+- [代理模式(Proxy)](./structural/proxy/)
 
 ### 行为型模式
 
-- [责任链模式](./behavioral/chain-of-responsibility/)
-- [命令模式](./behavioral/command/)
+- [责任链模式(Chain of Responsibility)](./behavioral/chain-of-responsibility/)
+- [命令模式(Command)](./behavioral/command/)
 - [解释器模式]()
-- [迭代器模式](./behavioral/iterator/)
-- [中介者模式](./behavioral/mediator/)
-- [备忘录模式](./behavioral/memento/)
+- [迭代器模式(Iterator)](./behavioral/iterator/)
+- [中介者模式(Mediator)](./behavioral/mediator/)
+- [备忘录模式(Memento)](./behavioral/memento/)
 - [空对象模式]()
-- [观察者模式](./behavioral/observer/)
-- [策略模式](./behavioral/strategy/)
-- [访问者模式](./behavioral/vistor/)
-- [模版方法模式](./behavioral/template-method/)
+- [观察者模式(Observer)](./behavioral/observer/)
+- [策略模式(Strategy)](./behavioral/strategy/)
+- [访问者模式(Vistor)](./behavioral/vistor/)
+- [模版方法模式(Template Method)](./behavioral/template-method/)
 
 ## 设计模式的关系
 
