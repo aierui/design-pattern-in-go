@@ -19,5 +19,6 @@ When to Use?
 - Use this design pattern when the objects implement a different interface as required by the client.
 
 UML Diagram:
+
 ![](./../../images/Adapter-Design-Pattern.jpg)
 

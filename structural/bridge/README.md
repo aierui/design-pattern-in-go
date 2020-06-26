@@ -8,4 +8,5 @@ This pattern suggests dividing a large class into two separate hierarchy
 - Implementation – It is also an interface and children’s of the Implementation are referred to as Concrete Implementation
   
 UML Diagram:
+
 ![](./../../images/Bridge-Design-Pattern.jpg)

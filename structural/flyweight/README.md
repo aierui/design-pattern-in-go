@@ -8,4 +8,5 @@ As in the above example, dress is the intrinsic property that was taken out and 
 Use flyweight when a large number of objects needs to be created which can cause memory issue. In case figure out all the common or intrinsic state and create flyweight objects for that.
 
 UML Diagram:
+
 ![](./../../images/Flyweight-Design-Pattern.png)

@@ -8,4 +8,5 @@ When to Use?
 - Use this pattern when the composite and individual object form a tree-like structure
 
 UML Diagram:
+
 ![](./../../images/Composite-Design-Pattern.jpg)

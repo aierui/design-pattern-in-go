@@ -10,4 +10,5 @@ In this pattern, a new proxy class is created that implements the same interface
     - Additional behavior – For example, it can do some caching
 
 UML Diagram:
+
 ![](./../../images/Proxy-Design-Pattern.jpg)
