@@ -1,0 +1,8 @@
+@startuml
+namespace singleton {
+    class single << (S,Aquamarine) >> {
+    }
+}
+
+
+@enduml

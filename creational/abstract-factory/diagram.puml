@@ -1,0 +1,77 @@
+@startuml
+namespace abstractfactory {
+    class adidas << (S,Aquamarine) >> {
+        - makeShoe() shoe
+        - makeShort() short
+
+    }
+    class adidasShoe << (S,Aquamarine) >> {
+        - getLogo() string
+
+    }
+    class adidasShort << (S,Aquamarine) >> {
+        - getLogo() string
+
+    }
+    class nike << (S,Aquamarine) >> {
+        - makeShoe() shoe
+        - makeShort() short
+
+    }
+    class nikeShoe << (S,Aquamarine) >> {
+        - getLogo() string
+
+    }
+    class nikeShort << (S,Aquamarine) >> {
+        - getLogo() string
+
+    }
+    interface shoe  {
+        - setLogo(logo string) 
+        - setSize(size int) 
+        - getLogo() string
+        - getSize() int
+
+    }
+    class shoeItem << (S,Aquamarine) >> {
+        - logo string
+        - size int
+
+        - setLogo(logo string) 
+        - getLost() string
+        - setSize(size int) 
+        - getSize() int
+
+    }
+    interface short  {
+        - setLogo(logo string) 
+        - setSize(size int) 
+        - getLogo() string
+        - getSize() int
+
+    }
+    class shortItem << (S,Aquamarine) >> {
+        - logo string
+        - size int
+
+        - setLogo(logo string) 
+        - getLost() string
+        - setSize(size int) 
+        - getSize() int
+
+    }
+    interface sportFactory  {
+        - makeShoe() shoe
+        - makeShort() short
+
+    }
+}
+"abstractfactory.shoeItem" *-- "abstractfactory.adidasShoe"
+"abstractfactory.shortItem" *-- "abstractfactory.adidasShort"
+"abstractfactory.shoeItem" *-- "abstractfactory.nikeShoe"
+"abstractfactory.shortItem" *-- "abstractfactory.nikeShort"
+
+"abstractfactory.sportFactory" <|-- "abstractfactory.adidas"
+"abstractfactory.sportFactory" <|-- "abstractfactory.nike"
+
+@enduml

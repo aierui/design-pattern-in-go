@@ -1,0 +1,28 @@
+@startuml
+namespace prototype {
+    class file << (S,Aquamarine) >> {
+        - name string
+
+        - print(indentation string) 
+        - clone() inode
+
+    }
+    class folder << (S,Aquamarine) >> {
+        - childrens []inode
+        - name string
+
+        - print(indentation string) 
+        - clone() inode
+
+    }
+    interface inode  {
+        - print( string) 
+        - clone() inode
+
+    }
+}
+
+"prototype.inode" <|-- "prototype.file"
+"prototype.inode" <|-- "prototype.folder"
+
+@enduml

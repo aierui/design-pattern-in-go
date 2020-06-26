@@ -1,0 +1,30 @@
+@startuml
+namespace factorymethod {
+    class ak47 << (S,Aquamarine) >> {
+    }
+    class gun << (S,Aquamarine) >> {
+        - name string
+        - power int
+
+        - setName(name string) 
+        - getName() string
+        - setPower(power int) 
+        - getPower() int
+
+    }
+    interface iGun  {
+        - setName(name string) 
+        - setPower(power int) 
+        - getName() string
+        - getPower() int
+
+    }
+    class maverick << (S,Aquamarine) >> {
+    }
+}
+"factorymethod.gun" *-- "factorymethod.ak47"
+"factorymethod.gun" *-- "factorymethod.maverick"
+
+"factorymethod.iGun" <|-- "factorymethod.gun"
+
+@enduml
