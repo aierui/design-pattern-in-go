@@ -20,4 +20,5 @@ When To Use?
 - Use when an object will have different responses to the same request depending upon the current state. Using state design pattern here will prevent a lot of conditional statements
 
 UML Diagram:
+
 ![](./../../images/State-Design-Pattern.jpg)
