@@ -46,6 +46,7 @@
 - [空对象模式]()
 - [观察者模式(Observer)](./behavioral/observer/)
 - [策略模式(Strategy)](./behavioral/strategy/)
+- [状态模式(State)](./behavioral/state/)
 - [访问者模式(Vistor)](./behavioral/vistor/)
 - [模版方法模式(Template Method)](./behavioral/template-method/)
 
