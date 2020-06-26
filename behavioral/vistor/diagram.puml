@@ -1,0 +1,61 @@
+@startuml
+namespace vistor {
+    class areaCalculator << (S,Aquamarine) >> {
+        - area int
+
+        - visitForSquare(s *square) 
+        - visitForCircle(s *circle) 
+        - visitForrectangle(s *rectangle) 
+
+    }
+    class circle << (S,Aquamarine) >> {
+        - radius int
+
+        - accept(v visitor) 
+        - getType() string
+
+    }
+    class middleCoordinates << (S,Aquamarine) >> {
+        - x int
+        - y int
+
+        - visitForSquare(s *square) 
+        - visitForCircle(c *circle) 
+        - visitForrectangle(t *rectangle) 
+
+    }
+    class rectangle << (S,Aquamarine) >> {
+        - l int
+        - b int
+
+        - accept(v visitor) 
+        - getType() string
+
+    }
+    interface shape  {
+        - getType() string
+        - accept( visitor) 
+
+    }
+    class square << (S,Aquamarine) >> {
+        - side int
+
+        - accept(v visitor) 
+        - getType() string
+
+    }
+    interface visitor  {
+        - visitForSquare( *square) 
+        - visitForCircle( *circle) 
+        - visitForrectangle( *rectangle) 
+
+    }
+}
+
+"vistor.visitor" <|-- "vistor.areaCalculator"
+"vistor.shape" <|-- "vistor.circle"
+"vistor.visitor" <|-- "vistor.middleCoordinates"
+"vistor.shape" <|-- "vistor.rectangle"
+"vistor.shape" <|-- "vistor.square"
+
+@enduml

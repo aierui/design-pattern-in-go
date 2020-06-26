@@ -1,0 +1,43 @@
+@startuml
+namespace command {
+    class button << (S,Aquamarine) >> {
+        - command command
+
+        - press() 
+
+    }
+    interface command  {
+        - execute() 
+
+    }
+    interface device  {
+        - on() 
+        - off() 
+
+    }
+    class offCommand << (S,Aquamarine) >> {
+        - device device
+
+        - execute() 
+
+    }
+    class onCommand << (S,Aquamarine) >> {
+        - device device
+
+        - execute() 
+
+    }
+    class tv << (S,Aquamarine) >> {
+        - isRunning bool
+
+        - on() 
+        - off() 
+
+    }
+}
+
+"command.command" <|-- "command.offCommand"
+"command.command" <|-- "command.onCommand"
+"command.device" <|-- "command.tv"
+
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+namespace mediator {
+    class goodsTrain << (S,Aquamarine) >> {
+        - mediator mediator
+
+        - requestArrival() 
+        - departure() 
+        - permitArrival() 
+
+    }
+    interface mediator  {
+        - canLand( train) bool
+        - notifyFree() 
+
+    }
+    class passengerTrain << (S,Aquamarine) >> {
+        - mediator mediator
+
+        - requestArrival() 
+        - departure() 
+        - permitArrival() 
+
+    }
+    class stationManager << (S,Aquamarine) >> {
+        - isPlatformFree bool
+        - lock *sync.Mutex
+        - trainQueue []train
+
+        - canLand(t train) bool
+        - notifyFree() 
+
+    }
+    interface train  {
+        - requestArrival() 
+        - departure() 
+        - permitArrival() 
+
+    }
+}
+
+"mediator.train" <|-- "mediator.goodsTrain"
+"mediator.train" <|-- "mediator.passengerTrain"
+"mediator.mediator" <|-- "mediator.stationManager"
+
+@enduml

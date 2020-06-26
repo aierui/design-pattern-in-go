@@ -1,0 +1,28 @@
+@startuml
+namespace memento {
+    class caretaker << (S,Aquamarine) >> {
+        - mementoArray []*memento
+
+        - addMemento(m *memento) 
+        - getMenento(index int) *memento
+
+    }
+    class memento << (S,Aquamarine) >> {
+        - state string
+
+        - getSavedState() string
+
+    }
+    class originator << (S,Aquamarine) >> {
+        - state string
+
+        - createMemento() *memento
+        - restorememento(m *memento) 
+        - setState(state string) 
+        - getState() string
+
+    }
+}
+
+
+@enduml

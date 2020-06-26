@@ -1,0 +1,37 @@
+@startuml
+namespace observer {
+    class customer << (S,Aquamarine) >> {
+        - id string
+
+        - update(itemName string) 
+        - getID() string
+
+    }
+    class item << (S,Aquamarine) >> {
+        - observerList []observer
+        - name string
+        - inStock bool
+
+        - updateAvailability() 
+        - register(o observer) 
+        - deregister(o observer) 
+        - notifyAll() 
+
+    }
+    interface observer  {
+        - update( string) 
+        - getID() string
+
+    }
+    interface subject  {
+        - register(Observer observer) 
+        - deregister(Observer observer) 
+        - notifyAll() 
+
+    }
+}
+
+"observer.observer" <|-- "observer.customer"
+"observer.subject" <|-- "observer.item"
+
+@enduml

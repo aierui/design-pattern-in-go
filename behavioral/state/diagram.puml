@@ -1,0 +1,71 @@
+@startuml
+namespace state {
+    class hasItemState << (S,Aquamarine) >> {
+        - vendingMachine *vendingMachine
+
+        - requestItem() error
+        - addItem(count int) error
+        - insertMoney(money int) error
+        - dispenseItem() error
+
+    }
+    class hasMoneyState << (S,Aquamarine) >> {
+        - vendingMachine *vendingMachine
+
+        - requestItem() error
+        - addItem(count int) error
+        - insertMoney(money int) error
+        - dispenseItem() error
+
+    }
+    class itemRequestedState << (S,Aquamarine) >> {
+        - vendingMachine *vendingMachine
+
+        - requestItem() error
+        - addItem(count int) error
+        - insertMoney(money int) error
+        - dispenseItem() error
+
+    }
+    class noItemState << (S,Aquamarine) >> {
+        - vendingMachine *vendingMachine
+
+        - requestItem() error
+        - addItem(count int) error
+        - insertMoney(money int) error
+        - dispenseItem() error
+
+    }
+    interface state  {
+        - addItem( int) error
+        - requestItem() error
+        - insertMoney(money int) error
+        - dispenseItem() error
+
+    }
+    class vendingMachine << (S,Aquamarine) >> {
+        - hasItem state
+        - itemRequested state
+        - hasMoney state
+        - noItem state
+        - currentState state
+        - itemCount int
+        - itemPrice int
+
+        - requestItem() error
+        - addItem(count int) error
+        - insertMoney(money int) error
+        - dispenseItem() error
+        - setState(s state) 
+        - incrementItemCount(count int) 
+
+    }
+}
+
+"state.state" <|-- "state.hasItemState"
+"state.state" <|-- "state.hasMoneyState"
+"state.state" <|-- "state.itemRequestedState"
+"state.state" <|-- "state.noItemState"
+"state.state" <|-- "state.vendingMachine"
+
+@enduml

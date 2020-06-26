@@ -1,0 +1,40 @@
+@startuml
+namespace templatemethod {
+    class email << (S,Aquamarine) >> {
+        - genRandomOTP(len int) string
+        - saveOTPCache(otp string) 
+        - getMessage(otp string) string
+        - sendNotification(message string) error
+        - publishMetric() 
+
+    }
+    interface iOtp  {
+        - genRandomOTP( int) string
+        - saveOTPCache( string) 
+        - getMessage( string) string
+        - sendNotification( string) error
+        - publishMetric() 
+
+    }
+    class otp << (S,Aquamarine) >> {
+        - iOtp iOtp
+
+        - genAndSendOTP(otpLength int) error
+
+    }
+    class sms << (S,Aquamarine) >> {
+        - genRandomOTP(len int) string
+        - saveOTPCache(otp string) 
+        - getMessage(otp string) string
+        - sendNotification(message string) error
+        - publishMetric() 
+
+    }
+}
+"templatemethod.otp" *-- "templatemethod.email"
+"templatemethod.otp" *-- "templatemethod.sms"
+
+"templatemethod.iOtp" <|-- "templatemethod.email"
+"templatemethod.iOtp" <|-- "templatemethod.sms"
+
+@enduml

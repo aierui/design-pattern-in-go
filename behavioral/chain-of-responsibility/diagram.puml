@@ -1,0 +1,51 @@
+@startuml
+namespace responsibility {
+    class cashier << (S,Aquamarine) >> {
+        - next department
+
+        - execute(p *patient) 
+        - setNext(next department) 
+
+    }
+    interface department  {
+        - execute( *patient) 
+        - setNext( department) 
+
+    }
+    class doctor << (S,Aquamarine) >> {
+        - next department
+
+        - execute(p *patient) 
+        - setNext(next department) 
+
+    }
+    class medical << (S,Aquamarine) >> {
+        - next department
+
+        - execute(p *patient) 
+        - setNext(next department) 
+
+    }
+    class patient << (S,Aquamarine) >> {
+        - name string
+        - registrationDone bool
+        - doctorCheckUpDone bool
+        - medicineDone bool
+        - paymentDone bool
+
+    }
+    class reception << (S,Aquamarine) >> {
+        - next department
+
+        - execute(p *patient) 
+        - setNext(next department) 
+
+    }
+}
+
+"responsibility.department" <|-- "responsibility.cashier"
+"responsibility.department" <|-- "responsibility.doctor"
+"responsibility.department" <|-- "responsibility.medical"
+"responsibility.department" <|-- "responsibility.reception"
+
+@enduml
