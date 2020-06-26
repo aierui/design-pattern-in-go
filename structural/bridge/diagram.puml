@@ -1,0 +1,41 @@
+@startuml
+namespace bridge {
+    interface computer  {
+        - print() 
+        - setPrinter( printer) 
+
+    }
+    class epson << (S,Aquamarine) >> {
+        - printFile() 
+
+    }
+    class hp << (S,Aquamarine) >> {
+        - printFile() 
+
+    }
+    class mac << (S,Aquamarine) >> {
+        - printer printer
+
+        - print() 
+        - setPrinter(p printer) 
+
+    }
+    interface printer  {
+        - printFile() 
+
+    }
+    class windows << (S,Aquamarine) >> {
+        - printer printer
+
+        - print() 
+        - setPrinter(p printer) 
+
+    }
+}
+
+"bridge.printer" <|-- "bridge.epson"
+"bridge.printer" <|-- "bridge.hp"
+"bridge.computer" <|-- "bridge.mac"
+"bridge.computer" <|-- "bridge.windows"
+
+@enduml

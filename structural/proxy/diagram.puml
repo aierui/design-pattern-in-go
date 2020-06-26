@@ -1,0 +1,25 @@
+@startuml
+namespace proxy {
+    class application << (S,Aquamarine) >> {
+        - handleRequest(url string, method string) (int, string)
+
+    }
+    class nginx << (S,Aquamarine) >> {
+        - application *application
+        - maxAllowedRequest int
+        - rateLimiter <font color=blue>map</font>[string]int
+
+        - handleRequest(url string, method string) (int, string)
+        - checkRateLimiting(url string) bool
+
+    }
+    interface server  {
+        - handleRequest( string,  string) (int, string)
+
+    }
+}
+
+"proxy.server" <|-- "proxy.application"
+"proxy.server" <|-- "proxy.nginx"
+
+@enduml

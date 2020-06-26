@@ -1,0 +1,27 @@
+@startuml
+namespace composite {
+    interface component  {
+        - search( string) 
+
+    }
+    class file << (S,Aquamarine) >> {
+        - name string
+
+        - search(keyword string) 
+        - getName() string
+
+    }
+    class folder << (S,Aquamarine) >> {
+        - components []component
+        - name string
+
+        - search(keyword string) 
+        - add(c component) 
+
+    }
+}
+
+"composite.component" <|-- "composite.file"
+"composite.component" <|-- "composite.folder"
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+namespace flyweight {
+    class counterTerroristDress << (S,Aquamarine) >> {
+        - color string
+
+        - getColor() string
+
+    }
+    interface dress  {
+        - getColor() string
+
+    }
+    class dressFactory << (S,Aquamarine) >> {
+        - dressMap <font color=blue>map</font>[string]dress
+        - dressMap <font color=blue>map</font>[string]dress
+
+        - getDressByType(dressType string) (dress, error)
+        - getDressByType(dressType string) (dress, error)
+
+    }
+    class player << (S,Aquamarine) >> {
+        - dress dress
+        - playerType string
+        - lat int
+        - long int
+
+        - newLocation(lat int, long int) 
+
+    }
+}
+
+"flyweight.dress" <|-- "flyweight.counterTerroristDress"
+
+@enduml

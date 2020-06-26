@@ -1,0 +1,30 @@
+@startuml
+namespace adapter {
+    class client << (S,Aquamarine) >> {
+        - insertSquareUsbInComputer(com computer) 
+
+    }
+    interface computer  {
+        - insertInSquarePort() 
+
+    }
+    class mac << (S,Aquamarine) >> {
+        - insertInSquarePort() 
+
+    }
+    class windows << (S,Aquamarine) >> {
+        - insertInCirclePort() 
+
+    }
+    class windowsAdapter << (S,Aquamarine) >> {
+        - windowMachine *windows
+
+        - insertInSquarePort() 
+
+    }
+}
+
+"adapter.computer" <|-- "adapter.mac"
+"adapter.computer" <|-- "adapter.windowsAdapter"
+
+@enduml
