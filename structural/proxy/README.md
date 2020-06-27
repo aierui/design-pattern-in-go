@@ -11,4 +11,5 @@ In this pattern, a new proxy class is created that implements the same interface
 
 UML Diagram:
 
-![](./../../images/Proxy-Design-Pattern.jpg)
+<!-- ![](./../../image/Proxy-Design-Pattern.jpg) -->
+![](../../images/structural/proxy/diagram/diagram.svg)

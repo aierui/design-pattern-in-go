@@ -4,4 +4,5 @@ Factory design pattern is a creational design pattern and it is also one of the 
 
 **UML Diagram**
 
-![](../../images/Factory-Design-Pattern.jpg)
+<!-- ![](../../image/Factory-Design-Pattern.jpg) -->
+![](../../images/creational/factory-method/diagram/diagram.svg)

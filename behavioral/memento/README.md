@@ -6,3 +6,6 @@ Memento design pattern is a behavioral design pattern. It allows us to save chec
 - **Memento**: This is the object which saves the state of the originator
 - **Caretaker**: This is the object that saves multiple mementos. Given an index, it returns the corresponding memento. 
 
+UML Diagram:
+
+![](../../images/behavioral/memento/diagram/diagram.svg)

@@ -12,4 +12,5 @@ The basic components that are used in the command design pattern are:
 
 UML Diagram
 
-![](./../../images/Command-Design-Pattern.jpg)
+<!-- ![](./../../image/Command-Design-Pattern.jpg) -->
+![](../../images/behavioral/command/diagram/diagram.svg)

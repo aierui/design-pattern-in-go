@@ -6,5 +6,6 @@ The object to be cloned exposes a clone method which returns a clone copy of the
 
 **UML Diagram**
 
-![](./../../images/Prototype-Pattern.jpg)
+<!-- ![](./../../image/Prototype-Pattern.jpg) -->
+![](../../images/creational/prototype/diagram/diagram.svg)
 

@@ -9,4 +9,5 @@ Use flyweight when a large number of objects needs to be created which can cause
 
 UML Diagram:
 
-![](./../../images/Flyweight-Design-Pattern.png)
+<!-- ![](./../../image/Flyweight-Design-Pattern.png) -->
+![](../../images/structural/flyweight/diagram/diagram.svg)

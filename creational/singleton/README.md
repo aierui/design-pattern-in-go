@@ -6,3 +6,7 @@ Singleton Design Pattern is a creational design pattern and also one of the most
 2. **Logger instance** – again only one instance of the logger should be created and it should be used throughout the application.
    
 The singleton instance is created when the struct is first initialized.  Usually, there is getInstance() method defined on the struct for which only one instance needs to be created. Once created then the same singleton instance is returned every time by the getInstance().
+
+UML Diagram
+
+![](../../images/creational/singleton/diagram/diagram.svg)

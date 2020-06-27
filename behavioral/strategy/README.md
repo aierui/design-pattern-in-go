@@ -14,4 +14,5 @@ When to Use?
 - When you have different algorithms that are similar and they only differ in the way they execute some behavior.
 
 UML Diagram:
-![](./../../images/Strategy-Design-Pattern.jpg)
+<!-- ![](./../../image/Strategy-Design-Pattern.jpg) -->
+![](../../image/../images/behavioral/strategy/diagram/diagram.svg)

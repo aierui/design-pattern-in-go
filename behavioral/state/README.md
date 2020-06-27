@@ -21,4 +21,5 @@ When To Use?
 
 UML Diagram:
 
-![](./../../images/State-Design-Pattern.jpg)
+<!-- ![](./../../image/State-Design-Pattern.jpg) -->
+![](../../images/behavioral/state/diagram/diagram.svg)

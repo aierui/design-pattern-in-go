@@ -11,4 +11,5 @@ When to Use?
 
 UML Diagram of example:
 
-![](./../../images/Chain-of-Responsibility-Design-Pattern.jpg)
+<!-- ![](./../../image/Chain-of-Responsibility-Design-Pattern.jpg) -->
+![](../../images/behavioral/chain-of-responsibility/diagram/diagram.svg)

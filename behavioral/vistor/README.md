@@ -4,4 +4,5 @@ Visitor Design Pattern is a Behavioural design pattern that lets you add behavio
 
 UML Diagram:
 
-![](./../../images/Visitor-Design-Pattern.jpg)
+<!-- ![](./../../image/Visitor-Design-Pattern.jpg) -->
+![](../../images/behavioral/vistor/diagram/diagram.svg)

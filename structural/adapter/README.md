@@ -20,5 +20,5 @@ When to Use?
 
 UML Diagram:
 
-![](./../../images/Adapter-Design-Pattern.jpg)
+![](../../images/structural/adapter/diagram/diagram.svg)
 

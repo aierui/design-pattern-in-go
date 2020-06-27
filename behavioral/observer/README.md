@@ -4,4 +4,5 @@ Observer Design Pattern is a behavioral design pattern. This pattern allows an i
 
 UML Diagram:
 
-![](./../../images/Observer-Design-Pattern.jpg)
+<!-- ![](./../../image/Observer-Design-Pattern.jpg) -->
+![](../../images/behavioral/observer/diagram/diagram.svg)

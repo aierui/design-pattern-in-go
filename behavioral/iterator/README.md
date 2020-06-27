@@ -12,4 +12,5 @@ Below are basic components of the Iterator Design Pattern
 
 UML Diagram:
 
-![](../../images/Iterator-Design-Pattern.jpg)
+<!-- ![](../../image/Iterator-Design-Pattern.jpg) -->
+![](../../images/behavioral/iterator/diagram/diagram.svg)

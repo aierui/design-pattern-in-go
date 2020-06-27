@@ -13,4 +13,5 @@ When to Use?
 
 UML Diagram:
 
-![](./../../images/Facade-Design-Pattern.jpg)
+<!-- ![](./../../image/Facade-Design-Pattern.jpg) -->
+![](../../images/structural/facade/diagram/diagram.svg)

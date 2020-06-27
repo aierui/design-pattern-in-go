@@ -6,6 +6,6 @@ Use Builder pattern when the object constructed is big and requires multiple ste
 
 **UML Diagram**
 
-![](../../images/Builder-Design-Patter.jpg)
-
+<!-- ![](../../image/Builder-Design-Patter.jpg) -->
+![](../../images/creational/builder/diagram/diagram.svg)
 

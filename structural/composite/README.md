@@ -9,4 +9,5 @@ When to Use?
 
 UML Diagram:
 
-![](./../../images/Composite-Design-Pattern.jpg)
+<!-- ![](./../../images/Composite-Design-Pattern.jpg) -->
+![](../../images/structural/composite/diagram/diagram.svg)

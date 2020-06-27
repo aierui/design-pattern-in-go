@@ -9,4 +9,4 @@ This pattern suggests dividing a large class into two separate hierarchy
   
 UML Diagram:
 
-![](./../../images/Bridge-Design-Pattern.jpg)
+![](../../images/structural/bridge/diagram/diagram.svg)
