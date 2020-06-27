@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="297px" preserveAspectRatio="none" style="width:399px;height:297px;" version="1.1" viewBox="0 0 399 297" width="399px" zoomAndPan="magnify"><defs><filter height="300%" id="f13zbxdaztjp8x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a409a9c9417f64321857ebf1cfc65af5]
+cluster prototype--><polygon fill="#FFFFFF" filter="url(#f13zbxdaztjp8x)" points="14,16,90,16,97,38.4883,377,38.4883,377,285,14,285,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="97" y1="38.4883" y2="38.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="18" y="31.5352">prototype</text><!--MD5=[4b1c00386743468dd6356cc7b76002e2]
+class prototype.file--><rect fill="#FEFECE" filter="url(#f13zbxdaztjp8x)" height="86.8652" id="prototype.file" style="stroke: #A80036; stroke-width: 1.5;" width="156" x="22" y="183.5"/><ellipse cx="87.25" cy="199.5" fill="#7FFFD4" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86.4834,200.563 Q84.6323,199.8574 83.9766,199.0813 Q83.3208,198.3052 83.3208,196.9937 Q83.3208,195.3086 84.3999,194.3457 Q85.479,193.3828 87.3633,193.3828 Q88.2183,193.3828 89.0732,193.5779 Q89.9282,193.7729 90.7666,194.1548 L90.7666,196.5454 Q89.978,195.9893 89.1646,195.6987 Q88.3511,195.4082 87.5542,195.4082 Q86.666,195.4082 86.1929,195.7651 Q85.7197,196.1221 85.7197,196.7861 Q85.7197,197.3008 86.0642,197.637 Q86.4087,197.9731 87.5044,198.3799 L88.5586,198.7783 Q90.0527,199.3262 90.7583,200.231 Q91.4639,201.1357 91.4639,202.5137 Q91.4639,204.3896 90.3557,205.3152 Q89.2476,206.2407 87.0063,206.2407 Q86.085,206.2407 85.1594,206.0208 Q84.2339,205.8008 83.3706,205.3691 L83.3706,202.8374 Q84.3501,203.5347 85.2673,203.875 Q86.1846,204.2153 87.0811,204.2153 Q87.9858,204.2153 88.4839,203.8044 Q88.9819,203.3936 88.9819,202.6548 Q88.9819,202.0986 88.6499,201.6794 Q88.3179,201.2603 87.687,201.0195 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="17" x="107.75" y="204.0352">file</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="177" y1="215.5" y2="215.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="223.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="42" y="230.1348">name string</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="177" y1="236.4551" y2="236.4551"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="244.4551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="42" y="251.0898">print(indentation string)</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="257.4102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="42" y="264.0449">clone() inode</text><!--MD5=[05e9e6a83a768efce3749efdf137058e]
+class prototype.folder--><rect fill="#FEFECE" filter="url(#f13zbxdaztjp8x)" height="99.8203" id="prototype.folder" style="stroke: #A80036; stroke-width: 1.5;" width="156" x="213" y="177"/><ellipse cx="269.75" cy="193" fill="#7FFFD4" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M268.9834,194.063 Q267.1323,193.3574 266.4766,192.5813 Q265.8208,191.8052 265.8208,190.4937 Q265.8208,188.8086 266.8999,187.8457 Q267.979,186.8828 269.8633,186.8828 Q270.7183,186.8828 271.5732,187.0779 Q272.4282,187.2729 273.2666,187.6548 L273.2666,190.0454 Q272.478,189.4893 271.6646,189.1987 Q270.8511,188.9082 270.0542,188.9082 Q269.166,188.9082 268.6929,189.2651 Q268.2197,189.6221 268.2197,190.2861 Q268.2197,190.8008 268.5642,191.137 Q268.9087,191.4731 270.0044,191.8799 L271.0586,192.2783 Q272.5527,192.8262 273.2583,193.731 Q273.9639,194.6357 273.9639,196.0137 Q273.9639,197.8896 272.8557,198.8152 Q271.7476,199.7407 269.5063,199.7407 Q268.585,199.7407 267.6594,199.5208 Q266.7339,199.3008 265.8706,198.8691 L265.8706,196.3374 Q266.8501,197.0347 267.7673,197.375 Q268.6846,197.7153 269.5811,197.7153 Q270.4858,197.7153 270.9839,197.3044 Q271.4819,196.8936 271.4819,196.1548 Q271.4819,195.5986 271.1499,195.1794 Q270.8179,194.7603 270.187,194.5195 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="290.25" y="197.5352">folder</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="214" x2="368" y1="209" y2="209"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="221" y="217"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="233" y="223.6348">childrens []inode</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="221" y="229.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="233" y="236.5898">name string</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="214" x2="368" y1="242.9102" y2="242.9102"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="221" y="250.9102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="233" y="257.5449">print(indentation string)</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="221" y="263.8652"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="233" y="270.5">clone() inode</text><!--MD5=[ec42596854cbf554ce886895fea70cd6]
+class prototype.inode--><rect fill="#FEFECE" filter="url(#f13zbxdaztjp8x)" height="73.9102" id="prototype.inode" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="147" y="43"/><ellipse cx="176.4" cy="59" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M172.8277,55.2651 L172.8277,53.1069 L180.2071,53.1069 L180.2071,55.2651 L177.7418,55.2651 L177.7418,63.3418 L180.2071,63.3418 L180.2071,65.5 L172.8277,65.5 L172.8277,63.3418 L175.2931,63.3418 L175.2931,55.2651 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="32" x="193.6" y="63.5352">inode</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="148" x2="242" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="148" x2="242" y1="83" y2="83"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="155" y="91"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="167" y="97.6348">print( string)</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="155" y="103.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="167" y="110.5898">clone() inode</text><!--MD5=[0ef856d5dbe2e23138de2e0c7e749867]
+reverse link prototype.inode to prototype.file--><path d="M160.085,134.0263 C149.5821,150.2782 138.1944,167.8991 128.1857,183.3863 " fill="none" id="prototype.inode&lt;-prototype.file" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="154.2928,130.0924,171.0275,117.0943,166.051,137.6913,154.2928,130.0924" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3cc2b4e6da662c5ee7299c2d3ef30c95]
+reverse link prototype.inode to prototype.folder--><path d="M230.334,134.1051 C239.4692,148.0935 249.2638,163.0914 258.2601,176.867 " fill="none" id="prototype.inode&lt;-prototype.folder" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="224.2998,137.6673,219.2249,117.0943,236.0216,130.0122,224.2998,137.6673" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91b87027c5c4709dd2d8df36998c96d9]
+@startuml
+namespace prototype {
+    class file << (S,Aquamarine) >> {
+        - name string
+
+        - print(indentation string) 
+        - clone() inode
+
+    }
+    class folder << (S,Aquamarine) >> {
+        - childrens []inode
+        - name string
+
+        - print(indentation string) 
+        - clone() inode
+
+    }
+    interface inode  {
+        - print( string) 
+        - clone() inode
+
+    }
+}
+
+"prototype.inode" <|- - "prototype.file"
+"prototype.inode" <|- - "prototype.folder"
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 17:35:57 CST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-b10
+Operating System: Mac OS X
+Default Encoding: US-ASCII
+Language: en
+Country: CN
+--></g></svg>

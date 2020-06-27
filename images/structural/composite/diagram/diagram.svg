@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="284px" preserveAspectRatio="none" style="width:403px;height:284px;" version="1.1" viewBox="0 0 403 284" width="403px" zoomAndPan="magnify"><defs><filter height="300%" id="f18pc3gpxvpopt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[83bee9caaf91e7fcbf4c8e1201a545f0]
+cluster composite--><polygon fill="#FFFFFF" filter="url(#f18pc3gpxvpopt)" points="14,16,95,16,102,38.4883,381,38.4883,381,272,14,272,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="102" y1="38.4883" y2="38.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="18" y="31.5352">composite</text><!--MD5=[c2988717b6ff725ebc0d099bb1fcfecb]
+class composite.component--><rect fill="#FEFECE" filter="url(#f18pc3gpxvpopt)" height="60.9551" id="composite.component" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="140.5" y="43"/><ellipse cx="159.55" cy="59" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M155.9777,55.2651 L155.9777,53.1069 L163.3571,53.1069 L163.3571,55.2651 L160.8918,55.2651 L160.8918,63.3418 L163.3571,63.3418 L163.3571,65.5 L155.9777,65.5 L155.9777,63.3418 L158.4431,63.3418 L158.4431,55.2651 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="64" x="174.45" y="63.5352">component</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="141.5" x2="244.5" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="141.5" x2="244.5" y1="83" y2="83"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="148.5" y="91"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="160.5" y="97.6348">search( string)</text><!--MD5=[26b3e112b01a3310d0ee70edf1efc02b]
+class composite.file--><rect fill="#FEFECE" filter="url(#f18pc3gpxvpopt)" height="86.8652" id="composite.file" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="22" y="170.5"/><ellipse cx="84.25" cy="186.5" fill="#7FFFD4" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M83.4834,187.563 Q81.6323,186.8574 80.9766,186.0813 Q80.3208,185.3052 80.3208,183.9937 Q80.3208,182.3086 81.3999,181.3457 Q82.479,180.3828 84.3633,180.3828 Q85.2183,180.3828 86.0732,180.5779 Q86.9282,180.7729 87.7666,181.1548 L87.7666,183.5454 Q86.978,182.9893 86.1646,182.6987 Q85.3511,182.4082 84.5542,182.4082 Q83.666,182.4082 83.1929,182.7651 Q82.7197,183.1221 82.7197,183.7861 Q82.7197,184.3008 83.0642,184.637 Q83.4087,184.9731 84.5044,185.3799 L85.5586,185.7783 Q87.0527,186.3262 87.7583,187.231 Q88.4639,188.1357 88.4639,189.5137 Q88.4639,191.3896 87.3557,192.3152 Q86.2476,193.2407 84.0063,193.2407 Q83.085,193.2407 82.1594,193.0208 Q81.2339,192.8008 80.3706,192.3691 L80.3706,189.8374 Q81.3501,190.5347 82.2673,190.875 Q83.1846,191.2153 84.0811,191.2153 Q84.9858,191.2153 85.4839,190.8044 Q85.9819,190.3936 85.9819,189.6548 Q85.9819,189.0986 85.6499,188.6794 Q85.3179,188.2603 84.687,188.0195 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="17" x="104.75" y="191.0352">file</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="171" y1="202.5" y2="202.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="210.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="42" y="217.1348">name string</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="171" y1="223.4551" y2="223.4551"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="231.4551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="42" y="238.0898">search(keyword string)</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="30" y="244.4102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="42" y="251.0449">getName() string</text><!--MD5=[4b0f4e23fcb8af7c2dae5bdb0bc504bc]
+class composite.folder--><rect fill="#FEFECE" filter="url(#f18pc3gpxvpopt)" height="99.8203" id="composite.folder" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="207.5" y="164"/><ellipse cx="268.75" cy="180" fill="#7FFFD4" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M267.9834,181.063 Q266.1323,180.3574 265.4766,179.5813 Q264.8208,178.8052 264.8208,177.4937 Q264.8208,175.8086 265.8999,174.8457 Q266.979,173.8828 268.8633,173.8828 Q269.7183,173.8828 270.5732,174.0779 Q271.4282,174.2729 272.2666,174.6548 L272.2666,177.0454 Q271.478,176.4893 270.6646,176.1987 Q269.8511,175.9082 269.0542,175.9082 Q268.166,175.9082 267.6929,176.2651 Q267.2197,176.6221 267.2197,177.2861 Q267.2197,177.8008 267.5642,178.137 Q267.9087,178.4731 269.0044,178.8799 L270.0586,179.2783 Q271.5527,179.8262 272.2583,180.731 Q272.9639,181.6357 272.9639,183.0137 Q272.9639,184.8896 271.8557,185.8152 Q270.7476,186.7407 268.5063,186.7407 Q267.585,186.7407 266.6594,186.5208 Q265.7339,186.3008 264.8706,185.8691 L264.8706,183.3374 Q265.8501,184.0347 266.7673,184.375 Q267.6846,184.7153 268.5811,184.7153 Q269.4858,184.7153 269.9839,184.3044 Q270.4819,183.8936 270.4819,183.1548 Q270.4819,182.5986 270.1499,182.1794 Q269.8179,181.7603 269.187,181.5195 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="289.25" y="184.5352">folder</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="208.5" x2="371.5" y1="196" y2="196"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="215.5" y="204"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="227.5" y="210.6348">components []component</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="215.5" y="216.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="227.5" y="223.5898">name string</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="208.5" x2="371.5" y1="229.9102" y2="229.9102"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="215.5" y="237.9102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="227.5" y="244.5449">search(keyword string)</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="215.5" y="250.8652"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="227.5" y="257.5">add(c component)</text><!--MD5=[567fc3d8b3c720c28aba6eab3c386de3]
+reverse link composite.component to composite.file--><path d="M160.6458,120.8517 C149.6868,136.8907 137.506,154.7178 126.7585,170.4471 " fill="none" id="composite.component&lt;-composite.file" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="154.8695,116.8976,171.9324,104.3333,166.4289,124.7958,154.8695,116.8976" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[08628a60e6ceb5a392ab300a1d15463c]
+reverse link composite.component to composite.folder--><path d="M225.7619,120.9541 C235.3082,134.7815 245.7669,149.9304 255.4215,163.9146 " fill="none" id="composite.component&lt;-composite.folder" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="219.8895,124.7689,214.2871,104.3333,231.4105,116.8149,219.8895,124.7689" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6072bc58b3ca95ecd9d6e2fccb7c806e]
+@startuml
+namespace composite {
+    interface component  {
+        - search( string) 
+
+    }
+    class file << (S,Aquamarine) >> {
+        - name string
+
+        - search(keyword string) 
+        - getName() string
+
+    }
+    class folder << (S,Aquamarine) >> {
+        - components []component
+        - name string
+
+        - search(keyword string) 
+        - add(c component) 
+
+    }
+}
+
+"composite.component" <|- - "composite.file"
+"composite.component" <|- - "composite.folder"
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 17:35:57 CST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_222-b10
+Operating System: Mac OS X
+Default Encoding: US-ASCII
+Language: en
+Country: CN
+--></g></svg>
